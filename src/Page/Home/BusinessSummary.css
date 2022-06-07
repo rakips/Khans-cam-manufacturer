@@ -1,0 +1,13 @@
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ---------- for mobile- -------------- max-width: 768px------ */
+
+@media screen and (max-width: 768px) {
+    .info {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
